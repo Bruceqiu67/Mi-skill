@@ -15,7 +15,7 @@ output/raw_tweets.jsonl
 output/tweet_findings.jsonl
 
 # 书文件（版权）
-书.pdf
+# 书.pdf — 取消注释可忽略书文件
 data/
 
 # Playwright 浏览器缓存
