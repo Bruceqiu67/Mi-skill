@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# 本地配置（有 API Key！）
+config/settings.local.yaml
+
+# 推文原始数据（大文件 + 隐私）
+output/raw_tweets.jsonl
+
+# 推文分析中间产物
+output/tweet_findings.jsonl
+
+# 书文件（版权）
+书.pdf
+data/
+
+# Playwright 浏览器缓存
+config/pw_*/
+config/x_storage.json
+
+# Playwright 浏览器
+venv/
+
+# 测试缓存
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 临时脚本
+_check_*.py
+_debug_*.py
+_test_*.py
+_*.py
